@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <!--welcome message in text view-->
+
+    <!--Button for logout from the app-->
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="504dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/idBtnLogout"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginEnd="14dp"
+        android:text="Logout"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
